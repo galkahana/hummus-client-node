@@ -1,0 +1,22 @@
+{
+  "name": "hummus-client",
+  "version": "1.0.0",
+  "description": "NodeJS client library for Hummus Services (services.pdfhummus.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "hummus",
+    "pdfhummus"
+  ],
+  "homepage": "http://services.pdfhummus.com",
+  "author": "Gal Kahana <gal.kahana@hotmail.com>",
+  "license": "Apache 2.0",
+  "gypfile": false,
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
