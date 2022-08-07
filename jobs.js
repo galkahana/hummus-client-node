@@ -111,7 +111,7 @@ function trackJobAndDownload(self,job,cb) {
     }
     else  {
         setTimeout(function() {
-            self.get(job._id,function(err,newJob) {
+            self.get(job._id || job.uid,function(err,newJob) {
                 if(err)
                     return cb(err);
                 else

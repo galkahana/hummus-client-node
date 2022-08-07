@@ -1,7 +1,7 @@
 module.exports = function(token,servicesUrl) {
     var config = {
       token:token,
-      servicesUrl:servicesUrl || 'http://services.pdfhummus.com/api'  
+      servicesUrl:servicesUrl || 'https://services.pdfhummus.com/api'  
     };
     
     return {
